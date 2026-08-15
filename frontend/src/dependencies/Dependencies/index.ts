@@ -13,6 +13,9 @@
   // REACT ROUTER DOM
   npm install react-router-dom
 
+  // REACT TOASTIFY
+  npm install react-toastify
+
   // STYLED COMPONENTS
   npm install styled-components
   npm install -D @types/styled-components
