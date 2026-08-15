@@ -12,4 +12,8 @@
 
   // REACT ROUTER DOM
   npm install react-router-dom
+
+  // STYLED COMPONENTS
+  npm install styled-components
+  npm install -D @types/styled-components
 */
