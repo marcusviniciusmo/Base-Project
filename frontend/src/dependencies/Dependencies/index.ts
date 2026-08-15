@@ -16,6 +16,9 @@
   // JWT
   npm install jwt-decode
 
+  // MATERIAL UI ICONS
+  npm install @mui/icons-material @mui/material @emotion/react @emotion/styled
+
   // REACT ROUTER DOM
   npm install react-router-dom
 
