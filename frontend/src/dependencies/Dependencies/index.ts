@@ -2,6 +2,9 @@
   // FRONTEND PROJECT
   npm create vite@latest
 
+  // AXIOS
+  npm install axios
+
   // ESLINT
   rm -rf node_modules
   rm -f package-lock.json
