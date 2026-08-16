@@ -6,7 +6,6 @@ export function App() {
   return (
     <>
       <BrowserRouter>
-        <h1>Base Project</h1>
         <Router />
       </BrowserRouter>
 
