@@ -1,12 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
 import { Home } from '../../pages/Home';
 import { NotFound } from '../../pages/NotFound';
+import { routes } from '../Routes';
 
 export function Router() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='*' element={<NotFound />} />
+      <Route path={routes.home} element={<Home />} />
+      <Route path={routes.notFound} element={<NotFound />} />
     </Routes>
   );
 }
