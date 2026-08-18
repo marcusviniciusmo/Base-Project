@@ -1,3 +1,4 @@
+import { ThemeContextProvider } from './contexts/ThemeContextProvider';
 import { BrowserRouter } from 'react-router-dom';
 import { Router } from './routes/Router';
 import { GlobalStyle } from './styles/Global';
@@ -5,11 +6,13 @@ import { GlobalStyle } from './styles/Global';
 export function App() {
   return (
     <>
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
+      <ThemeContextProvider>
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
 
-      <GlobalStyle />
+        <GlobalStyle />
+      </ThemeContextProvider>
     </>
   );
 }
